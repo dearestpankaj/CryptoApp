@@ -1,0 +1,30 @@
+{
+  "Mac" : [
+    {
+      "hash" : "049d40764cf8085416cbe06f7533bebb0d25a71cafd2d44c20c55c9a5337ff6d",
+      "name" : "SwiftSVG",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "0a7a3167fb6e40310e883f9d22b4d628f49a9cc10ce7529ec476e5fc3d37c68f",
+      "name" : "SwiftSVG",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "commitish" : "v2.3.2",
+  "iOS" : [
+    {
+      "hash" : "7578dbd8746075eeccb2eb7f2de443659fd071431ba14e32b9b7c250e730c5ab",
+      "name" : "SwiftSVG",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

@@ -1,0 +1,1648 @@
+BCSymbolMap Version: 2.0
+-[AppleSucksDOMImplementation hasFeature:version:]
+-[AppleSucksDOMImplementation createDocumentType:publicId:systemId:]
+-[AppleSucksDOMImplementation createDocument:qualifiedName:doctype:]
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/AppleSucksDOMImplementation.m
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit
+Source/DOM classes/Core DOM/AppleSucksDOMImplementation.m
+-[Attr initWithName:value:]
+-[Attr initWithNamespace:qualifiedName:value:]
+-[Attr name]
+-[Attr setName:]
+-[Attr specified]
+-[Attr setSpecified:]
+-[Attr value]
+-[Attr setValue:]
+-[Attr ownerElement]
+-[Attr setOwnerElement:]
+-[Attr .cxx_destruct]
+_OBJC_IVAR_$_Attr.name
+_OBJC_IVAR_$_Attr.specified
+_OBJC_IVAR_$_Attr.value
+_OBJC_IVAR_$_Attr.ownerElement
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Attr.m
+Source/DOM classes/Core DOM/Attr.m
+Source/DOM classes/Core DOM/Attr.h
+-[CDATASection initWithValue:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CDATASection.m
+Source/DOM classes/Core DOM/CDATASection.m
+-[CharacterData substringData:count:]
+-[CharacterData appendData:]
+-[CharacterData insertData:arg:]
+-[CharacterData deleteData:count:]
+-[CharacterData replaceData:count:arg:]
+-[CharacterData data]
+-[CharacterData length]
+-[CharacterData .cxx_destruct]
+_OBJC_IVAR_$_CharacterData.data
+_OBJC_IVAR_$_CharacterData.length
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CharacterData.m
+Source/DOM classes/Core DOM/CharacterData.m
+Source/DOM classes/Core DOM/CharacterData.h
+-[Comment initWithValue:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Comment.m
+Source/DOM classes/Core DOM/Comment.m
+-[CSSStyleDeclaration init]
+-[CSSStyleDeclaration setCssText:]
+-[CSSStyleDeclaration NSDictionaryFromCSSAttributes:]
+-[CSSStyleDeclaration getPropertyValue:]
+-[CSSStyleDeclaration getPropertyCSSValue:]
+-[CSSStyleDeclaration removeProperty:]
+-[CSSStyleDeclaration getPropertyPriority:]
+-[CSSStyleDeclaration setProperty:value:priority:]
+-[CSSStyleDeclaration item:]
+-[CSSStyleDeclaration description]
+-[CSSStyleDeclaration internalDictionaryOfStylesByCSSClass]
+-[CSSStyleDeclaration setInternalDictionaryOfStylesByCSSClass:]
+-[CSSStyleDeclaration cssText]
+-[CSSStyleDeclaration length]
+-[CSSStyleDeclaration setLength:]
+-[CSSStyleDeclaration parentRule]
+-[CSSStyleDeclaration setParentRule:]
+-[CSSStyleDeclaration .cxx_destruct]
+_OBJC_IVAR_$_CSSStyleDeclaration.internalDictionaryOfStylesByCSSClass
+_OBJC_IVAR_$_CSSStyleDeclaration._cssText
+_OBJC_IVAR_$_CSSStyleDeclaration.length
+_OBJC_IVAR_$_CSSStyleDeclaration.parentRule
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSStyleDeclaration.m
+Source/DOM classes/Core DOM/CSSStyleDeclaration.m
+Source/DOM classes/Core DOM/CSSStyleDeclaration.h
+-[CSSRule type]
+-[CSSRule setType:]
+-[CSSRule cssText]
+-[CSSRule setCssText:]
+-[CSSRule parentStyleSheet]
+-[CSSRule setParentStyleSheet:]
+-[CSSRule parentRule]
+-[CSSRule setParentRule:]
+-[CSSRule .cxx_destruct]
+_OBJC_IVAR_$_CSSRule.type
+_OBJC_IVAR_$_CSSRule.cssText
+_OBJC_IVAR_$_CSSRule.parentStyleSheet
+_OBJC_IVAR_$_CSSRule.parentRule
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSRule.m
+Source/DOM classes/Core DOM/CSSRule.m
+Source/DOM classes/Core DOM/CSSRule.h
+-[CSSStyleRule init]
+-[CSSStyleRule initWithSelectorText:styleText:]
+-[CSSStyleRule description]
+-[CSSStyleRule selectorText]
+-[CSSStyleRule setSelectorText:]
+-[CSSStyleRule style]
+-[CSSStyleRule setStyle:]
+-[CSSStyleRule .cxx_destruct]
+_OBJC_IVAR_$_CSSStyleRule.selectorText
+_OBJC_IVAR_$_CSSStyleRule.style
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSStyleRule.m
+Source/DOM classes/Core DOM/CSSStyleRule.m
+Source/DOM classes/Core DOM/CSSStyleRule.h
+-[CSSStyleSheet insertRule:index:]
+-[CSSStyleSheet deleteRule:]
+-[CSSStyleSheet initWithString:]
+-[CSSStyleSheet ownerRule]
+-[CSSStyleSheet setOwnerRule:]
+-[CSSStyleSheet cssRules]
+-[CSSStyleSheet setCssRules:]
+-[CSSStyleSheet .cxx_destruct]
+_OBJC_IVAR_$_CSSStyleSheet.ownerRule
+_OBJC_IVAR_$_CSSStyleSheet.cssRules
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSStyleSheet.m
+Source/DOM classes/Core DOM/CSSStyleSheet.m
+Source/DOM classes/Core DOM/CSSStyleSheet.h
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[CSSRuleList init]
+-[CSSRuleList length]
+-[CSSRuleList item:]
+-[CSSRuleList description]
+-[CSSRuleList internalArray]
+-[CSSRuleList setInternalArray:]
+-[CSSRuleList .cxx_destruct]
+_OBJC_IVAR_$_CSSRuleList.internalArray
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSRuleList.m
+Source/DOM classes/Core DOM/CSSRuleList.m
+Source/DOM classes/Core DOM/CSSRuleList+Mutable.h
+-[CSSPrimitiveValue init]
+-[CSSPrimitiveValue setFloatValue:floatValue:]
+-[CSSPrimitiveValue getFloatValue:]
+-[CSSPrimitiveValue setStringValue:stringValue:]
+-[CSSPrimitiveValue getStringValue]
+-[CSSPrimitiveValue getCounterValue]
+-[CSSPrimitiveValue getRectValue]
+-[CSSPrimitiveValue getRGBColorValue]
+-[CSSPrimitiveValue setCssText:]
+-[CSSPrimitiveValue pixelsPerInch]
+-[CSSPrimitiveValue setPixelsPerInch:]
+-[CSSPrimitiveValue internalValue]
+-[CSSPrimitiveValue setInternalValue:]
+-[CSSPrimitiveValue internalString]
+-[CSSPrimitiveValue setInternalString:]
+-[CSSPrimitiveValue primitiveType]
+-[CSSPrimitiveValue setPrimitiveType:]
+-[CSSPrimitiveValue .cxx_destruct]
+_OBJC_IVAR_$_CSSPrimitiveValue.pixelsPerInch
+_OBJC_IVAR_$_CSSPrimitiveValue.internalValue
+_OBJC_IVAR_$_CSSPrimitiveValue.internalString
+_OBJC_IVAR_$_CSSPrimitiveValue.primitiveType
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSPrimitiveValue.m
+Source/DOM classes/Core DOM/CSSPrimitiveValue.m
+Source/DOM classes/Core DOM/CSSPrimitiveValue.h
+Source/DOM classes/Core DOM/CSSPrimitiveValue_ConfigurablePixelsPerInch.h
+-[CSSValueList init]
+-[CSSValueList length]
+-[CSSValueList item:]
+-[CSSValueList setCssText:]
+-[CSSValueList internalArray]
+-[CSSValueList setInternalArray:]
+-[CSSValueList .cxx_destruct]
+_OBJC_IVAR_$_CSSValueList.internalArray
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSValueList.m
+Source/DOM classes/Core DOM/CSSValueList.m
+-[CSSValue init]
+-[CSSValue initWithUnitType:]
+-[CSSValue cssText]
+-[CSSValue setCssText:]
+-[CSSValue cssValueType]
+-[CSSValue setCssValueType:]
+-[CSSValue .cxx_destruct]
+_OBJC_IVAR_$_CSSValue.cssValueType
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/CSSValue.m
+Source/DOM classes/Core DOM/CSSValue.m
+Source/DOM classes/Core DOM/CSSValue.h
+-[Document createElement:]
+-[Document createDocumentFragment]
+-[Document createTextNode:]
+-[Document createComment:]
+-[Document createCDATASection:]
+-[Document createProcessingInstruction:data:]
+-[Document createAttribute:]
+-[Document createEntityReference:]
+-[Document getElementsByTagName:]
+-[Document importNode:deep:]
+-[Document createElementNS:qualifiedName:]
+-[Document createAttributeNS:qualifiedName:]
+-[Document getElementsByTagNameNS:localName:]
+-[Document getElementById:]
+-[Document doctype]
+-[Document implementation]
+-[Document documentElement]
+-[Document setDocumentElement:]
+-[Document .cxx_destruct]
+_OBJC_IVAR_$_Document.doctype
+_OBJC_IVAR_$_Document.implementation
+_OBJC_IVAR_$_Document.documentElement
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Document.m
+Source/DOM classes/Core DOM/Document.m
+Source/DOM classes/Core DOM/Document+Mutable.h
+Source/DOM classes/Core DOM/Document.h
+-[StyleSheetList init]
+-[StyleSheetList length]
+-[StyleSheetList item:]
+-[StyleSheetList internalArray]
+-[StyleSheetList setInternalArray:]
+-[StyleSheetList .cxx_destruct]
+_OBJC_IVAR_$_StyleSheetList.internalArray
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/StyleSheetList.m
+Source/DOM classes/Core DOM/StyleSheetList.m
+Source/DOM classes/Core DOM/StyleSheetList+Mutable.h
+-[StyleSheet type]
+-[StyleSheet setType:]
+-[StyleSheet disabled]
+-[StyleSheet setDisabled:]
+-[StyleSheet ownerNode]
+-[StyleSheet setOwnerNode:]
+-[StyleSheet parentStyleSheet]
+-[StyleSheet setParentStyleSheet:]
+-[StyleSheet href]
+-[StyleSheet setHref:]
+-[StyleSheet title]
+-[StyleSheet setTitle:]
+-[StyleSheet media]
+-[StyleSheet setMedia:]
+-[StyleSheet .cxx_destruct]
+_OBJC_IVAR_$_StyleSheet._disabled
+_OBJC_IVAR_$_StyleSheet._type
+_OBJC_IVAR_$_StyleSheet._ownerNode
+_OBJC_IVAR_$_StyleSheet._parentStyleSheet
+_OBJC_IVAR_$_StyleSheet._href
+_OBJC_IVAR_$_StyleSheet._title
+_OBJC_IVAR_$_StyleSheet._media
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/StyleSheet.m
+Source/DOM classes/Core DOM/StyleSheet.m
+Source/DOM classes/Core DOM/StyleSheet.h
+-[MediaList item:]
+-[MediaList deleteMedium:]
+-[MediaList appendMedium:]
+-[MediaList mediaText]
+-[MediaList setMediaText:]
+-[MediaList length]
+-[MediaList setLength:]
+-[MediaList .cxx_destruct]
+_OBJC_IVAR_$_MediaList.mediaText
+_OBJC_IVAR_$_MediaList.length
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/MediaList.m
+Source/DOM classes/Core DOM/MediaList.m
+Source/DOM classes/Core DOM/MediaList.h
+-[DocumentFragment init]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/DocumentFragment.m
+Source/DOM classes/Core DOM/DocumentFragment.m
+-[DocumentType name]
+-[DocumentType entities]
+-[DocumentType notations]
+-[DocumentType publicId]
+-[DocumentType systemId]
+-[DocumentType internalSubset]
+-[DocumentType .cxx_destruct]
+_OBJC_IVAR_$_DocumentType.name
+_OBJC_IVAR_$_DocumentType.entities
+_OBJC_IVAR_$_DocumentType.notations
+_OBJC_IVAR_$_DocumentType.publicId
+_OBJC_IVAR_$_DocumentType.systemId
+_OBJC_IVAR_$_DocumentType.internalSubset
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/DocumentType.m
+Source/DOM classes/Core DOM/DocumentType.m
+Source/DOM classes/Core DOM/DocumentType.h
++[DOMHelperUtilities privateGetElementsByName:inNamespace:childrenOfElement:addToList:]
++[DOMHelperUtilities privateGetElementById:childrenOfElement:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/DOMHelperUtilities.m
+Source/DOM classes/Core DOM/DOMHelperUtilities.m
+-[Element initWithLocalName:attributes:]
+-[Element initWithQualifiedName:inNameSpaceURI:attributes:]
+-[Element getAttribute:]
+-[Element setAttribute:value:]
+-[Element removeAttribute:]
+-[Element getAttributeNode:]
+-[Element setAttributeNode:]
+-[Element removeAttributeNode:]
+-[Element getElementsByTagName:]
+-[Element getAttributeNS:localName:]
+-[Element setAttributeNS:qualifiedName:value:]
+-[Element removeAttributeNS:localName:]
+-[Element getAttributeNodeNS:localName:]
+-[Element setAttributeNodeNS:]
+-[Element getElementsByTagNameNS:localName:]
+-[Element hasAttribute:]
+-[Element hasAttributeNS:localName:]
+-[Element tagName]
+-[Element setTagName:]
+-[Element .cxx_destruct]
+_OBJC_IVAR_$_Element.tagName
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Element.m
+Source/DOM classes/Core DOM/Element.m
+Source/DOM classes/Core DOM/Element.h
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/EntityReference.m
+-[NamedNodeMap init]
+-[NamedNodeMap getNamedItem:]
+-[NamedNodeMap setNamedItem:]
+-[NamedNodeMap removeNamedItem:]
+-[NamedNodeMap length]
+-[NamedNodeMap item:]
+-[NamedNodeMap getNamedItemNS:localName:]
+-[NamedNodeMap setNamedItemNS:]
+-[NamedNodeMap removeNamedItemNS:localName:]
+-[NamedNodeMap setNamedItemNS:inNodeNamespace:]
+-[NamedNodeMap description]
+-[NamedNodeMap allNodesUnsortedDOM1]
+-[NamedNodeMap allNodesUnsortedDOM2]
+-[NamedNodeMap copyWithZone:]
+-[NamedNodeMap internalDictionary]
+-[NamedNodeMap setInternalDictionary:]
+-[NamedNodeMap internalDictionaryOfNamespaces]
+-[NamedNodeMap setInternalDictionaryOfNamespaces:]
+-[NamedNodeMap .cxx_destruct]
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+_OBJC_IVAR_$_NamedNodeMap.internalDictionary
+_OBJC_IVAR_$_NamedNodeMap.internalDictionaryOfNamespaces
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/NamedNodeMap.m
+Source/DOM classes/Core DOM/NamedNodeMap.m
+-[Node init]
+-[Node initType:name:value:]
+-[Node initType:name:]
+-[Node postInitNamespaceHandling:]
+-[Node initType:name:inNamespace:]
+-[Node initType:name:value:inNamespace:]
+-[Node firstChild]
+-[Node lastChild]
+-[Node previousSibling]
+-[Node nextSibling]
+-[Node insertBefore:refChild:]
+-[Node replaceChild:oldChild:]
+-[Node removeChild:]
+-[Node appendChild:]
+-[Node hasChildNodes]
+-[Node cloneNode:]
+-[Node normalize]
+-[Node isSupportedFeature:version:]
+-[Node hasAttributes]
+-[Node textContent]
+-[Node description]
+-[Node appendXMLToString:availableNamespaces:activeNamespaces:]
+-[Node nodeName]
+-[Node setNodeName:]
+-[Node nodeValue]
+-[Node setNodeValue:]
+-[Node nodeType]
+-[Node setNodeType:]
+-[Node parentNode]
+-[Node setParentNode:]
+-[Node childNodes]
+-[Node setChildNodes:]
+-[Node attributes]
+-[Node setAttributes:]
+-[Node ownerDocument]
+-[Node setOwnerDocument:]
+-[Node setHasAttributes:]
+-[Node setHasChildNodes:]
+-[Node localName]
+-[Node setLocalName:]
+-[Node namespaceURI]
+-[Node setNamespaceURI:]
+-[Node prefix]
+-[Node setPrefix:]
+-[Node .cxx_destruct]
+_OBJC_IVAR_$_Node.hasAttributes
+_OBJC_IVAR_$_Node.hasChildNodes
+_OBJC_IVAR_$_Node.nodeType
+_OBJC_IVAR_$_Node.nodeName
+_OBJC_IVAR_$_Node.nodeValue
+_OBJC_IVAR_$_Node.parentNode
+_OBJC_IVAR_$_Node.childNodes
+_OBJC_IVAR_$_Node.attributes
+_OBJC_IVAR_$_Node.ownerDocument
+_OBJC_IVAR_$_Node.localName
+_OBJC_IVAR_$_Node.namespaceURI
+_OBJC_IVAR_$_Node.prefix
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Node.m
+Source/DOM classes/Core DOM/Node.m
+Source/DOM classes/Core DOM/Node+Mutable.h
+Source/DOM classes/Core DOM/Node.h
+-[SVGRadialGradientElement newGradientLayerForObjectRect:viewportRect:transform:]
+-[SVGRadialGradientElement synthesizeProperties]
+-[SVGRadialGradientElement cx]
+-[SVGRadialGradientElement setCx:]
+-[SVGRadialGradientElement cy]
+-[SVGRadialGradientElement setCy:]
+-[SVGRadialGradientElement r]
+-[SVGRadialGradientElement setR:]
+-[SVGRadialGradientElement fx]
+-[SVGRadialGradientElement setFx:]
+-[SVGRadialGradientElement fy]
+-[SVGRadialGradientElement setFy:]
+-[SVGRadialGradientElement fr]
+-[SVGRadialGradientElement setFr:]
+-[SVGRadialGradientElement hasSynthesizedProperties]
+-[SVGRadialGradientElement setHasSynthesizedProperties:]
+-[SVGRadialGradientElement .cxx_destruct]
+_OBJC_IVAR_$_SVGRadialGradientElement._cx
+_OBJC_IVAR_$_SVGRadialGradientElement._cy
+_OBJC_IVAR_$_SVGRadialGradientElement._r
+_OBJC_IVAR_$_SVGRadialGradientElement._fx
+_OBJC_IVAR_$_SVGRadialGradientElement._fy
+_OBJC_IVAR_$_SVGRadialGradientElement._fr
+_OBJC_IVAR_$_SVGRadialGradientElement._hasSynthesizedProperties
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.h
+__CGSizeApplyAffineTransform
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
+__CGPointApplyAffineTransform
+-[NodeList init]
+-[NodeList item:]
+-[NodeList length]
+-[NodeList countByEnumeratingWithState:objects:count:]
+-[NodeList description]
+-[NodeList internalArray]
+-[NodeList setInternalArray:]
+-[NodeList .cxx_destruct]
+__OBJC_PROTOCOL_$_NSFastEnumeration
+__OBJC_LABEL_PROTOCOL_$_NSFastEnumeration
+_OBJC_IVAR_$_NodeList.internalArray
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/NodeList.m
+Source/DOM classes/Core DOM/NodeList.m
+Source/DOM classes/Core DOM/NodeList+Mutable.h
+-[ProcessingInstruction initProcessingInstruction:value:]
+-[ProcessingInstruction target]
+-[ProcessingInstruction setTarget:]
+-[ProcessingInstruction data]
+-[ProcessingInstruction setData:]
+-[ProcessingInstruction .cxx_destruct]
+_OBJC_IVAR_$_ProcessingInstruction.target
+_OBJC_IVAR_$_ProcessingInstruction.data
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/ProcessingInstruction.m
+Source/DOM classes/Core DOM/ProcessingInstruction.m
+Source/DOM classes/Core DOM/ProcessingInstruction.h
+-[Text initWithValue:]
+-[Text splitText:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Core DOM/Text.m
+Source/DOM classes/Core DOM/Text.m
+-[SVGAngle newValueSpecifiedUnits:valueInSpecifiedUnits:]
+-[SVGAngle convertToSpecifiedUnits:]
+-[SVGAngle unitType]
+-[SVGAngle value]
+-[SVGAngle setValue:]
+-[SVGAngle valueInSpecifiedUnits]
+-[SVGAngle setValueInSpecifiedUnits:]
+-[SVGAngle valueAsString]
+-[SVGAngle setValueAsString:]
+-[SVGAngle .cxx_destruct]
+_OBJC_IVAR_$_SVGAngle.unitType
+_OBJC_IVAR_$_SVGAngle.value
+_OBJC_IVAR_$_SVGAngle.valueInSpecifiedUnits
+_OBJC_IVAR_$_SVGAngle.valueAsString
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGAngle.m
+Source/DOM classes/SVG-DOM/SVGAngle.m
+Source/DOM classes/SVG-DOM/SVGAngle.h
+-[SVGAnimatedPreserveAspectRatio init]
+-[SVGAnimatedPreserveAspectRatio animVal]
+-[SVGAnimatedPreserveAspectRatio baseVal]
+-[SVGAnimatedPreserveAspectRatio setBaseVal:]
+-[SVGAnimatedPreserveAspectRatio .cxx_destruct]
+_OBJC_IVAR_$_SVGAnimatedPreserveAspectRatio._baseVal
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.m
+Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.m
+Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.h
+-[SVGClipPathElement postProcessAttributesAddingErrorsTo:]
+-[SVGClipPathElement newLayer]
+-[SVGClipPathElement layoutLayer:toMaskLayer:]
+-[SVGClipPathElement clipPathUnits]
+-[SVGClipPathElement transform]
+-[SVGClipPathElement setTransform:]
+_OBJC_IVAR_$_SVGClipPathElement.clipPathUnits
+_OBJC_IVAR_$_SVGClipPathElement.transform
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_SVGTransformable
+__OBJC_LABEL_PROTOCOL_$_SVGTransformable
+__OBJC_PROTOCOL_$_SVGStylable
+__OBJC_LABEL_PROTOCOL_$_SVGStylable
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGClipPathElement.m
+Source/DOM classes/SVG-DOM/SVGTransformable.h
+Source/DOM classes/SVG-DOM/SVGClipPathElement.h
+Source/DOM classes/SVG-DOM/SVGClipPathElement.m
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGDefsElement.m
+-[SVGDocument init]
+-[SVGDocument setRootElement:]
+-[SVGDocument setDocumentElement:]
+-[SVGDocument allPrefixesByNamespace]
++[SVGDocument accumulateNamespacesForNode:intoDictionary:]
+-[SVGDocument allPrefixesByNamespaceNormalized]
+-[SVGDocument title]
+-[SVGDocument setTitle:]
+-[SVGDocument referrer]
+-[SVGDocument setReferrer:]
+-[SVGDocument domain]
+-[SVGDocument setDomain:]
+-[SVGDocument URL]
+-[SVGDocument setURL:]
+-[SVGDocument rootElement]
+-[SVGDocument .cxx_destruct]
+_OBJC_IVAR_$_SVGDocument._rootElement
+_OBJC_IVAR_$_SVGDocument.title
+_OBJC_IVAR_$_SVGDocument.referrer
+_OBJC_IVAR_$_SVGDocument.domain
+_OBJC_IVAR_$_SVGDocument.URL
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGDocument.m
+Source/DOM classes/SVG-DOM/SVGDocument.m
+Source/DOM classes/SVG-DOM/SVGDocument.h
+Source/DOM classes/SVG-DOM/SVGDocument_Mutable.h
+-[SVGElementInstance dealloc]
+-[SVGElementInstance setParentNode:]
+-[SVGElementInstance firstChild]
+-[SVGElementInstance lastChild]
+-[SVGElementInstance previousSibling]
+-[SVGElementInstance nextSibling]
+-[SVGElementInstance parentNode]
+-[SVGElementInstance childNodes]
+-[SVGElementInstance setChildNodes:]
+-[SVGElementInstance correspondingElement]
+-[SVGElementInstance setCorrespondingElement:]
+-[SVGElementInstance correspondingUseElement]
+-[SVGElementInstance setCorrespondingUseElement:]
+-[SVGElementInstance .cxx_destruct]
+_OBJC_IVAR_$_SVGElementInstance.parentNode
+_OBJC_IVAR_$_SVGElementInstance.childNodes
+_OBJC_IVAR_$_SVGElementInstance._correspondingElement
+_OBJC_IVAR_$_SVGElementInstance._correspondingUseElement
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGElementInstance.m
+Source/DOM classes/SVG-DOM/SVGElementInstance.m
+Source/DOM classes/SVG-DOM/SVGElementInstance_Mutable.h
+Source/DOM classes/SVG-DOM/SVGElementInstance.h
+-[SVGElementInstanceList init]
+-[SVGElementInstanceList length]
+-[SVGElementInstanceList item:]
+-[SVGElementInstanceList internalArray]
+-[SVGElementInstanceList setInternalArray:]
+-[SVGElementInstanceList .cxx_destruct]
+_OBJC_IVAR_$_SVGElementInstanceList.internalArray
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGElementInstanceList.m
+Source/DOM classes/SVG-DOM/SVGElementInstanceList.m
+Source/DOM classes/SVG-DOM/SVGElementInstanceList_Internal.h
+-[SVGGElement newLayer]
+-[SVGGElement layoutLayer:]
+-[SVGGElement transform]
+-[SVGGElement setTransform:]
+_OBJC_IVAR_$_SVGGElement.transform
+__OBJC_PROTOCOL_$_ConverterSVGToCALayer
+__OBJC_LABEL_PROTOCOL_$_ConverterSVGToCALayer
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGGElement.m
+Source/DOM classes/SVG-DOM/SVGGElement.m
+-[SVGLength init]
+-[SVGLength initWithCSSPrimitiveValue:]
+-[SVGLength value]
+-[SVGLength unitType]
+-[SVGLength newValueSpecifiedUnits:valueInSpecifiedUnits:]
+-[SVGLength convertToSpecifiedUnits:]
++[SVGLength initialize]
++[SVGLength svgLengthZero]
++[SVGLength svgLengthFromNSString:]
+-[SVGLength pixelsValue]
+-[SVGLength pixelsValueWithDimension:]
+-[SVGLength pixelsValueWithGradientDimension:]
+-[SVGLength numberValue]
++[SVGLength pixelsPerInchForCurrentDevice]
+-[SVGLength setValue:]
+-[SVGLength valueInSpecifiedUnits]
+-[SVGLength setValueInSpecifiedUnits:]
+-[SVGLength valueAsString]
+-[SVGLength setValueAsString:]
+-[SVGLength internalCSSPrimitiveValue]
+-[SVGLength setInternalCSSPrimitiveValue:]
+-[SVGLength .cxx_destruct]
+_cachedDevicePixelsPerInch
+_OBJC_IVAR_$_SVGLength.unitType
+_OBJC_IVAR_$_SVGLength.value
+_OBJC_IVAR_$_SVGLength.valueInSpecifiedUnits
+_OBJC_IVAR_$_SVGLength.valueAsString
+_OBJC_IVAR_$_SVGLength.internalCSSPrimitiveValue
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGLength.m
+Source/DOM classes/SVG-DOM/SVGLength.m
+Source/DOM classes/SVG-DOM/SVGLength.h
+-[SVGMatrix multiply:]
+-[SVGMatrix inverse]
+-[SVGMatrix translate:y:]
+-[SVGMatrix scale:]
+-[SVGMatrix scaleNonUniform:scaleFactorY:]
+-[SVGMatrix rotate:]
+-[SVGMatrix rotateFromVector:y:]
+-[SVGMatrix flipX]
+-[SVGMatrix flipY]
+-[SVGMatrix skewX:]
+-[SVGMatrix skewY:]
+-[SVGMatrix a]
+-[SVGMatrix setA:]
+-[SVGMatrix b]
+-[SVGMatrix setB:]
+-[SVGMatrix c]
+-[SVGMatrix setC:]
+-[SVGMatrix d]
+-[SVGMatrix setD:]
+-[SVGMatrix e]
+-[SVGMatrix setE:]
+-[SVGMatrix f]
+-[SVGMatrix setF:]
+_OBJC_IVAR_$_SVGMatrix.a
+_OBJC_IVAR_$_SVGMatrix.b
+_OBJC_IVAR_$_SVGMatrix.c
+_OBJC_IVAR_$_SVGMatrix.d
+_OBJC_IVAR_$_SVGMatrix.e
+_OBJC_IVAR_$_SVGMatrix.f
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGMatrix.m
+Source/DOM classes/SVG-DOM/SVGMatrix.h
+Source/DOM classes/SVG-DOM/SVGMatrix.m
+-[SVGPoint matrixTransform:]
+-[SVGPoint x]
+-[SVGPoint y]
+_OBJC_IVAR_$_SVGPoint.x
+_OBJC_IVAR_$_SVGPoint.y
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGPoint.m
+Source/DOM classes/SVG-DOM/SVGPoint.h
+Source/DOM classes/SVG-DOM/SVGPoint.m
+-[SVGPreserveAspectRatio init]
+-[SVGPreserveAspectRatio align]
+-[SVGPreserveAspectRatio setAlign:]
+-[SVGPreserveAspectRatio meetOrSlice]
+-[SVGPreserveAspectRatio setMeetOrSlice:]
+_OBJC_IVAR_$_SVGPreserveAspectRatio._align
+_OBJC_IVAR_$_SVGPreserveAspectRatio._meetOrSlice
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.m
+Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.h
+Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.m
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGRect.m
+NSStringFromSVGRect
+Source/DOM classes/SVG-DOM/SVGRect.m
+CGRectFromSVGRect
+CGSizeFromSVGRect
+SVGRectMake
+SVGRectUninitialized
+SVGRectIsInitialized
+-[SVGTransform setMatrix:]
+-[SVGTransform setTranslate:ty:]
+-[SVGTransform setScale:sy:]
+-[SVGTransform setRotate:cx:cy:]
+-[SVGTransform setSkewX:]
+-[SVGTransform setSkewY:]
+-[SVGTransform type]
+-[SVGTransform setType:]
+-[SVGTransform matrix]
+-[SVGTransform angle]
+-[SVGTransform .cxx_destruct]
+_OBJC_IVAR_$_SVGTransform.type
+_OBJC_IVAR_$_SVGTransform.angle
+_OBJC_IVAR_$_SVGTransform.matrix
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGTransform.m
+Source/DOM classes/SVG-DOM/SVGTransform.m
+Source/DOM classes/SVG-DOM/SVGTransform.h
+-[SVGUseElement newLayer]
+-[SVGUseElement layoutLayer:]
+-[SVGUseElement x]
+-[SVGUseElement setX:]
+-[SVGUseElement y]
+-[SVGUseElement setY:]
+-[SVGUseElement width]
+-[SVGUseElement setWidth:]
+-[SVGUseElement height]
+-[SVGUseElement setHeight:]
+-[SVGUseElement instanceRoot]
+-[SVGUseElement setInstanceRoot:]
+-[SVGUseElement animatedInstanceRoot]
+-[SVGUseElement setAnimatedInstanceRoot:]
+-[SVGUseElement transform]
+-[SVGUseElement setTransform:]
+-[SVGUseElement .cxx_destruct]
+_OBJC_IVAR_$_SVGUseElement.instanceRoot
+_OBJC_IVAR_$_SVGUseElement.x
+_OBJC_IVAR_$_SVGUseElement.y
+_OBJC_IVAR_$_SVGUseElement.width
+_OBJC_IVAR_$_SVGUseElement.height
+_OBJC_IVAR_$_SVGUseElement.animatedInstanceRoot
+_OBJC_IVAR_$_SVGUseElement.transform
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGUseElement.m
+Source/DOM classes/SVG-DOM/SVGUseElement.m
+Source/DOM classes/SVG-DOM/SVGUseElement_Mutable.h
+Source/DOM classes/SVG-DOM/SVGUseElement.h
++[SVGHelperUtilities transformRelativeIncludingViewportForTransformableOrViewportEstablishingElement:]
++[SVGHelperUtilities transformAbsoluteIncludingViewportForTransformableOrViewportEstablishingElement:]
++[SVGHelperUtilities configureCALayer:usingElement:]
++[SVGHelperUtilities newCALayerForPathBasedSVGElement:withPath:]
++[SVGHelperUtilities getGradientLayerWithId:forElement:withRect:transform:]
++[SVGHelperUtilities parseFillForElement:]
++[SVGHelperUtilities parseFillForElement:fromFill:andOpacity:]
++[SVGHelperUtilities parseStrokeForElement:]
++[SVGHelperUtilities parseStrokeForElement:fromStroke:andOpacity:]
++[SVGHelperUtilities parsePaintColorForElement:paintColor:paintOpacity:defaultColor:]
++[SVGHelperUtilities parsePreserveAspectRatioFor:]
+l_OBJC_PROTOCOL_REFERENCE_$_SVGTransformable
+l_OBJC_PROTOCOL_REFERENCE_$_SVGStylable
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGHelperUtilities.m
+Source/DOM classes/SVG-DOM/SVGHelperUtilities.m
+-[SVGTextPositioningElement postProcessAttributesAddingErrorsTo:]
+-[SVGTextPositioningElement x]
+-[SVGTextPositioningElement setX:]
+-[SVGTextPositioningElement y]
+-[SVGTextPositioningElement setY:]
+-[SVGTextPositioningElement dx]
+-[SVGTextPositioningElement setDx:]
+-[SVGTextPositioningElement dy]
+-[SVGTextPositioningElement setDy:]
+-[SVGTextPositioningElement rotate]
+-[SVGTextPositioningElement setRotate:]
+-[SVGTextPositioningElement .cxx_destruct]
+_OBJC_IVAR_$_SVGTextPositioningElement.x
+_OBJC_IVAR_$_SVGTextPositioningElement.y
+_OBJC_IVAR_$_SVGTextPositioningElement.dx
+_OBJC_IVAR_$_SVGTextPositioningElement.dy
+_OBJC_IVAR_$_SVGTextPositioningElement.rotate
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGTextPositioningElement.m
+Source/DOM classes/SVG-DOM/SVGTextPositioningElement.m
+Source/DOM classes/SVG-DOM/SVGTextPositioningElement_Mutable.h
+Source/DOM classes/SVG-DOM/SVGTextPositioningElement.h
+-[SVGTextContentElement textLength]
+-[SVGTextContentElement .cxx_destruct]
+_OBJC_IVAR_$_SVGTextContentElement.textLength
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/SVG-DOM/SVGTextContentElement.m
+Source/DOM classes/SVG-DOM/SVGTextContentElement.m
+Source/DOM classes/SVG-DOM/SVGTextContentElement.h
+-[SVGGradientElement addStop:]
+-[SVGGradientElement colors]
+-[SVGGradientElement locations]
+-[SVGGradientElement gradientUnits]
+-[SVGGradientElement spreadMethod]
+-[SVGGradientElement postProcessAttributesAddingErrorsTo:]
+-[SVGGradientElement getAttributeInheritedIfNil:]
+-[SVGGradientElement newGradientLayerForObjectRect:viewportRect:transform:]
+-[SVGGradientElement synthesizeProperties]
+-[SVGGradientElement layoutLayer:]
+-[SVGGradientElement stops]
+-[SVGGradientElement transform]
+-[SVGGradientElement setTransform:]
+-[SVGGradientElement .cxx_destruct]
+_OBJC_IVAR_$_SVGGradientElement._stops
+_OBJC_IVAR_$_SVGGradientElement._colors
+_OBJC_IVAR_$_SVGGradientElement._locations
+_OBJC_IVAR_$_SVGGradientElement.transform
+_OBJC_IVAR_$_SVGGradientElement._gradientUnits
+_OBJC_IVAR_$_SVGGradientElement._spreadMethod
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGGradientElement.h
+-[SVGGradientStop loadDefaults]
+-[SVGGradientStop postProcessAttributesAddingErrorsTo:]
+-[SVGGradientStop offset]
+-[SVGGradientStop stopColor]
+-[SVGGradientStop stopOpacity]
+_OBJC_IVAR_$_SVGGradientStop._stopOpacity
+_OBJC_IVAR_$_SVGGradientStop._offset
+_OBJC_IVAR_$_SVGGradientStop._stopColor
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGGradientStop.m
+Source/DOM classes/Unported or Partial DOM/SVGGradientStop.h
+Source/DOM classes/Unported or Partial DOM/SVGGradientStop.m
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGStyleElement.m
+-[SVGCircleElement r]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGCircleElement.m
+Source/DOM classes/Unported or Partial DOM/SVGCircleElement.m
++[SVGDescriptionElement shouldStoreContent]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m
+Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m
+-[SVGElement getPresentationAttribute:]
++[SVGElement shouldStoreContent]
+-[SVGElement reCalculateAndSetViewportElementReferenceUsingFirstSVGAncestor:]
+-[SVGElement setParentNode:]
+-[SVGElement setRootOfCurrentDocumentFragment:]
+-[SVGElement setViewportElement:]
+-[SVGElement loadDefaults]
+-[SVGElement getAttributeAsSVGLength:]
+-[SVGElement postProcessAttributesAddingErrorsTo:]
+___50-[SVGElement postProcessAttributesAddingErrorsTo:]_block_invoke
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+-[SVGElement description]
+-[SVGElement initWithLocalName:attributes:]
+-[SVGElement initWithQualifiedName:inNameSpaceURI:attributes:]
+-[SVGElement nextSelectorGroupFromText:startFrom:]
+-[SVGElement nextSelectorRangeFromText:startFrom:]
+-[SVGElement selector:appliesTo:specificity:]
+___45-[SVGElement selector:appliesTo:specificity:]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[SVGElement styleRule:appliesTo:specificity:]
+-[SVGElement cascadedValueForStylableProperty:]
+-[SVGElement cascadedValueForStylableProperty:inherit:]
+-[SVGElement identifier]
+-[SVGElement setIdentifier:]
+-[SVGElement xmlbase]
+-[SVGElement setXmlbase:]
+-[SVGElement rootOfCurrentDocumentFragment]
+-[SVGElement viewportElement]
+-[SVGElement stringValue]
+-[SVGElement setStringValue:]
+-[SVGElement className]
+-[SVGElement setClassName:]
+-[SVGElement style]
+-[SVGElement setStyle:]
+-[SVGElement .cxx_destruct]
+_OBJC_IVAR_$_SVGElement._rootOfCurrentDocumentFragment
+_OBJC_IVAR_$_SVGElement._viewportElement
+___block_descriptor_56_e8_32s40s48s_e37_v32?0"NSTextCheckingResult"8Q16^B24l
+_OBJC_IVAR_$_SVGElement._identifier
+_OBJC_IVAR_$_SVGElement._stringValue
+___block_descriptor_48_e8_32s40r_e52_v56?0"NSString"8{_NSRange=QQ}16{_NSRange=QQ}32^B48l
+_OBJC_IVAR_$_SVGElement.xmlbase
+_OBJC_IVAR_$_SVGElement.className
+_OBJC_IVAR_$_SVGElement.style
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGElement.m
+Source/DOM classes/Unported or Partial DOM/SVGElement.m
+Source/DOM classes/SVG-DOM/SVGStylable.h
+Source/DOM classes/Unported or Partial DOM/SVGElement.h
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__45-[SVGElement selector:appliesTo:specificity:]_block_invoke
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
+__50-[SVGElement postProcessAttributesAddingErrorsTo:]_block_invoke
+-[SVGEllipseElement postProcessAttributesAddingErrorsTo:]
+-[SVGEllipseElement cx]
+-[SVGEllipseElement setCx:]
+-[SVGEllipseElement cy]
+-[SVGEllipseElement setCy:]
+-[SVGEllipseElement rx]
+-[SVGEllipseElement setRx:]
+-[SVGEllipseElement ry]
+-[SVGEllipseElement setRy:]
+_OBJC_IVAR_$_SVGEllipseElement._cx
+_OBJC_IVAR_$_SVGEllipseElement._cy
+_OBJC_IVAR_$_SVGEllipseElement._rx
+_OBJC_IVAR_$_SVGEllipseElement._ry
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.m
+Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.m
+Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.h
+-[SVGGroupElement loadDefaults]
+-[SVGGroupElement postProcessAttributesAddingErrorsTo:]
+-[SVGGroupElement newLayer]
+-[SVGGroupElement layoutLayer:]
+-[SVGGroupElement opacity]
+_OBJC_IVAR_$_SVGGroupElement._opacity
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGGroupElement.m
+Source/DOM classes/Unported or Partial DOM/SVGGroupElement.h
+Source/DOM classes/Unported or Partial DOM/SVGGroupElement.m
+-[SVGImageElement postProcessAttributesAddingErrorsTo:]
+-[SVGImageElement newLayer]
+-[SVGImageElement clipFrame:fromRatio:]
+-[SVGImageElement layoutLayer:]
+-[SVGImageElement aspectRatioFromWidthPerHeight]
+-[SVGImageElement aspectRatioFromViewBox]
+-[SVGImageElement transform]
+-[SVGImageElement setTransform:]
+-[SVGImageElement viewBox]
+-[SVGImageElement setViewBox:]
+-[SVGImageElement preserveAspectRatio]
+-[SVGImageElement setPreserveAspectRatio:]
+-[SVGImageElement x]
+-[SVGImageElement y]
+-[SVGImageElement width]
+-[SVGImageElement height]
+-[SVGImageElement href]
+-[SVGImageElement setHref:]
+-[SVGImageElement .cxx_destruct]
+_OBJC_IVAR_$_SVGImageElement._x
+_OBJC_IVAR_$_SVGImageElement._y
+_OBJC_IVAR_$_SVGImageElement._width
+_OBJC_IVAR_$_SVGImageElement._height
+_OBJC_IVAR_$_SVGImageElement._href
+_OBJC_IVAR_$_SVGImageElement.transform
+_OBJC_IVAR_$_SVGImageElement.viewBox
+_OBJC_IVAR_$_SVGImageElement.preserveAspectRatio
+__OBJC_PROTOCOL_$_SVGFitToViewBox
+__OBJC_LABEL_PROTOCOL_$_SVGFitToViewBox
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGImageElement.m
+Source/DOM classes/Unported or Partial DOM/SVGImageElement.m
+Source/DOM classes/Unported or Partial DOM/SVGImageElement.h
+Source/DOM classes/SVG-DOM/SVGFitToViewBox.h
+SVGImageCGImage
+-[SVGLineElement postProcessAttributesAddingErrorsTo:]
+-[SVGLineElement newLayer]
+-[SVGLineElement x1]
+-[SVGLineElement y1]
+-[SVGLineElement x2]
+-[SVGLineElement y2]
+_OBJC_IVAR_$_SVGLineElement._x1
+_OBJC_IVAR_$_SVGLineElement._y1
+_OBJC_IVAR_$_SVGLineElement._x2
+_OBJC_IVAR_$_SVGLineElement._y2
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGLineElement.m
+Source/DOM classes/Unported or Partial DOM/SVGLineElement.h
+Source/DOM classes/Unported or Partial DOM/SVGLineElement.m
+-[SVGPathElement postProcessAttributesAddingErrorsTo:]
+-[SVGPathElement parseData:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGPathElement.m
+Source/DOM classes/Unported or Partial DOM/SVGPathElement.m
+-[SVGPolygonElement postProcessAttributesAddingErrorsTo:]
+-[SVGPolygonElement parseData:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.m
+Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.m
+-[SVGPolylineElement postProcessAttributesAddingErrorsTo:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.m
+Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.m
+-[SVGRectElement postProcessAttributesAddingErrorsTo:]
+-[SVGRectElement transform]
+-[SVGRectElement setTransform:]
+-[SVGRectElement x]
+-[SVGRectElement y]
+-[SVGRectElement width]
+-[SVGRectElement height]
+-[SVGRectElement rx]
+-[SVGRectElement ry]
+-[SVGRectElement .cxx_destruct]
+_OBJC_IVAR_$_SVGRectElement._x
+_OBJC_IVAR_$_SVGRectElement._y
+_OBJC_IVAR_$_SVGRectElement._width
+_OBJC_IVAR_$_SVGRectElement._height
+_OBJC_IVAR_$_SVGRectElement._rx
+_OBJC_IVAR_$_SVGRectElement._ry
+_OBJC_IVAR_$_SVGRectElement.transform
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGRectElement.m
+Source/DOM classes/Unported or Partial DOM/SVGRectElement.m
+Source/DOM classes/Unported or Partial DOM/SVGRectElement.h
+-[BaseClassForAllSVGBasicShapes init]
+-[BaseClassForAllSVGBasicShapes dealloc]
+-[BaseClassForAllSVGBasicShapes setPathForShapeInRelativeCoords:]
+-[BaseClassForAllSVGBasicShapes newLayer]
+-[BaseClassForAllSVGBasicShapes layoutLayer:]
+-[BaseClassForAllSVGBasicShapes pathForShapeInRelativeCoords]
+-[BaseClassForAllSVGBasicShapes transform]
+-[BaseClassForAllSVGBasicShapes setTransform:]
+-[BaseClassForAllSVGBasicShapes .cxx_destruct]
+_OBJC_IVAR_$_BaseClassForAllSVGBasicShapes._pathForShapeInRelativeCoords
+_OBJC_IVAR_$_BaseClassForAllSVGBasicShapes.transform
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes.m
+Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes.m
+Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes.h
+-[SVGSVGElement dealloc]
+-[SVGSVGElement loadDefaults]
+-[SVGSVGElement getOverrideStyle:pseudoElt:]
+-[SVGSVGElement suspendRedraw:]
+-[SVGSVGElement unsuspendRedraw:]
+-[SVGSVGElement unsuspendRedrawAll]
+-[SVGSVGElement forceRedraw]
+-[SVGSVGElement pauseAnimations]
+-[SVGSVGElement unpauseAnimations]
+-[SVGSVGElement animationsPaused]
+-[SVGSVGElement getCurrentTime]
+-[SVGSVGElement setCurrentTime:]
+-[SVGSVGElement getIntersectionList:referenceElement:]
+-[SVGSVGElement getEnclosureList:referenceElement:]
+-[SVGSVGElement checkIntersection:rect:]
+-[SVGSVGElement checkEnclosure:rect:]
+-[SVGSVGElement deselectAll]
+-[SVGSVGElement createSVGNumber]
+-[SVGSVGElement createSVGLength]
+-[SVGSVGElement createSVGAngle]
+-[SVGSVGElement createSVGPoint]
+-[SVGSVGElement createSVGMatrix]
+-[SVGSVGElement createSVGRect]
+-[SVGSVGElement createSVGTransform]
+-[SVGSVGElement createSVGTransformFromMatrix:]
+-[SVGSVGElement getElementById:]
+-[SVGSVGElement postProcessAttributesAddingErrorsTo:]
+-[SVGSVGElement findFirstElementOfClass:]
+-[SVGSVGElement newLayer]
+-[SVGSVGElement layoutLayer:]
+-[SVGSVGElement aspectRatioFromWidthPerHeight]
+-[SVGSVGElement aspectRatioFromViewBox]
+-[SVGSVGElement x]
+-[SVGSVGElement setX:]
+-[SVGSVGElement y]
+-[SVGSVGElement setY:]
+-[SVGSVGElement width]
+-[SVGSVGElement setWidth:]
+-[SVGSVGElement height]
+-[SVGSVGElement setHeight:]
+-[SVGSVGElement contentScriptType]
+-[SVGSVGElement setContentScriptType:]
+-[SVGSVGElement contentStyleType]
+-[SVGSVGElement setContentStyleType:]
+-[SVGSVGElement viewport]
+-[SVGSVGElement setViewport:]
+-[SVGSVGElement pixelUnitToMillimeterX]
+-[SVGSVGElement setPixelUnitToMillimeterX:]
+-[SVGSVGElement pixelUnitToMillimeterY]
+-[SVGSVGElement setPixelUnitToMillimeterY:]
+-[SVGSVGElement screenPixelToMillimeterX]
+-[SVGSVGElement setScreenPixelToMillimeterX:]
+-[SVGSVGElement screenPixelToMillimeterY]
+-[SVGSVGElement setScreenPixelToMillimeterY:]
+-[SVGSVGElement useCurrentView]
+-[SVGSVGElement setUseCurrentView:]
+-[SVGSVGElement currentView]
+-[SVGSVGElement setCurrentView:]
+-[SVGSVGElement currentScale]
+-[SVGSVGElement setCurrentScale:]
+-[SVGSVGElement currentTranslate]
+-[SVGSVGElement setCurrentTranslate:]
+-[SVGSVGElement source]
+-[SVGSVGElement setSource:]
+-[SVGSVGElement viewBox]
+-[SVGSVGElement setViewBox:]
+-[SVGSVGElement preserveAspectRatio]
+-[SVGSVGElement setPreserveAspectRatio:]
+-[SVGSVGElement styleSheets]
+-[SVGSVGElement setStyleSheets:]
+-[SVGSVGElement requestedViewport]
+-[SVGSVGElement setRequestedViewport:]
+-[SVGSVGElement .cxx_destruct]
+_OBJC_IVAR_$_SVGSVGElement._viewBox
+_OBJC_IVAR_$_SVGSVGElement.x
+_OBJC_IVAR_$_SVGSVGElement.y
+_OBJC_IVAR_$_SVGSVGElement.width
+_OBJC_IVAR_$_SVGSVGElement.height
+_OBJC_IVAR_$_SVGSVGElement.contentScriptType
+_OBJC_IVAR_$_SVGSVGElement.contentStyleType
+_OBJC_IVAR_$_SVGSVGElement.viewport
+_OBJC_IVAR_$_SVGSVGElement.pixelUnitToMillimeterX
+_OBJC_IVAR_$_SVGSVGElement.pixelUnitToMillimeterY
+_OBJC_IVAR_$_SVGSVGElement.screenPixelToMillimeterX
+_OBJC_IVAR_$_SVGSVGElement.screenPixelToMillimeterY
+_OBJC_IVAR_$_SVGSVGElement.useCurrentView
+_OBJC_IVAR_$_SVGSVGElement.currentView
+_OBJC_IVAR_$_SVGSVGElement.currentScale
+_OBJC_IVAR_$_SVGSVGElement.currentTranslate
+_OBJC_IVAR_$_SVGSVGElement.source
+_OBJC_IVAR_$_SVGSVGElement.preserveAspectRatio
+_OBJC_IVAR_$_SVGSVGElement.styleSheets
+_OBJC_IVAR_$_SVGSVGElement._requestedViewport
+__OBJC_PROTOCOL_$_DocumentStyle
+__OBJC_LABEL_PROTOCOL_$_DocumentStyle
+__OBJC_PROTOCOL_$_DocumentCSS
+__OBJC_LABEL_PROTOCOL_$_DocumentCSS
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m
+Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m
+Source/DOM classes/Unported or Partial DOM/SVGSVGElement.h
+Source/DOM classes/Core DOM/DocumentStyle.h
+Source/DOM classes/SVG-DOM/SVGSVGElement_Mutable.h
+-[SVGSwitchElement newLayer]
+-[SVGSwitchElement visibleChildNodes]
+-[SVGSwitchElement layoutLayer:]
+-[SVGSwitchElement .cxx_destruct]
+_OBJC_IVAR_$_SVGSwitchElement._visibleChildNodes
+l_OBJC_PROTOCOL_REFERENCE_$_ConverterSVGToCALayer
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGSwitchElement.m
+Source/DOM classes/Unported or Partial DOM/SVGSwitchElement.m
+-[SVGTextElement newLayer]
+-[SVGTextElement newCALayerForTextLayer:transformAbsolute:]
++[SVGTextElement matchedFontWithElement:]
++[SVGTextElement fontAttributesWithFontFamily:fontStyle:fontWeight:fontStretch:]
++[SVGTextElement fontFamiliesWithCSSValue:]
++[SVGTextElement systemDefaultFontFamily]
+___41+[SVGTextElement systemDefaultFontFamily]_block_invoke
+-[SVGTextElement layoutLayer:]
+-[SVGTextElement transform]
+-[SVGTextElement setTransform:]
+_systemDefaultFontFamily.onceToken
+_systemDefaultFontFamily.fontFamily
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_IVAR_$_SVGTextElement.transform
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGTextElement.m
+Source/DOM classes/Unported or Partial DOM/SVGTextElement.m
+__41+[SVGTextElement systemDefaultFontFamily]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.2.sdk/usr/include/dispatch/once.h
++[SVGTitleElement shouldStoreContent]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGTitleElement.m
+Source/DOM classes/Unported or Partial DOM/SVGTitleElement.m
+-[TinySVGTextAreaElement postProcessAttributesAddingErrorsTo:]
+-[TinySVGTextAreaElement newLayer]
+-[TinySVGTextAreaElement width]
+-[TinySVGTextAreaElement setWidth:]
+-[TinySVGTextAreaElement height]
+-[TinySVGTextAreaElement setHeight:]
+-[TinySVGTextAreaElement .cxx_destruct]
+_OBJC_IVAR_$_TinySVGTextAreaElement.width
+_OBJC_IVAR_$_TinySVGTextAreaElement.height
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.m
+Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.m
+Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.h
+-[SVGLinearGradientElement newGradientLayerForObjectRect:viewportRect:transform:]
+-[SVGLinearGradientElement synthesizeProperties]
+-[SVGLinearGradientElement x1]
+-[SVGLinearGradientElement setX1:]
+-[SVGLinearGradientElement y1]
+-[SVGLinearGradientElement setY1:]
+-[SVGLinearGradientElement x2]
+-[SVGLinearGradientElement setX2:]
+-[SVGLinearGradientElement y2]
+-[SVGLinearGradientElement setY2:]
+-[SVGLinearGradientElement hasSynthesizedProperties]
+-[SVGLinearGradientElement setHasSynthesizedProperties:]
+-[SVGLinearGradientElement .cxx_destruct]
+_OBJC_IVAR_$_SVGLinearGradientElement._x1
+_OBJC_IVAR_$_SVGLinearGradientElement._y1
+_OBJC_IVAR_$_SVGLinearGradientElement._x2
+_OBJC_IVAR_$_SVGLinearGradientElement._y2
+_OBJC_IVAR_$_SVGLinearGradientElement._hasSynthesizedProperties
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.m
+Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.h
+-[SVGKImage(CGContext) newCGContextAutosizedToFit]
+-[SVGKImage(CGContext) renderInContext:]
+-[SVGKImage(CGContext) renderToContext:antiAliased:curveFlatnessFactor:interpolationQuality:flipYaxis:]
+-[SVGKImage(CGContext) temporaryWorkaroundPreprocessRenderingLayerTree:]
+-[SVGKImage(CGContext) temporaryWorkaroundPostProcessRenderingLayerTree:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Exporters/SVGKImage+CGContext.m
+Source/Exporters/SVGKImage+CGContext.m
++[SVGKExporterNSData exportAsNSData:]
++[SVGKExporterNSData exportAsNSData:flipYaxis:]
++[SVGKExporterNSData exportAsNSData:antiAliased:curveFlatnessFactor:interpolationQuality:flipYaxis:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Exporters/SVGKExporterNSData.m
+Source/Exporters/SVGKExporterNSData.m
++[SVGKExporterUIImage exportAsUIImage:]
++[SVGKExporterUIImage exportAsUIImage:antiAliased:curveFlatnessFactor:interpolationQuality:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Exporters/SVGKExporterUIImage.m
+Source/Exporters/SVGKExporterUIImage.m
+-[SVGKSourceLocalFile keyForAppleDictionaries]
++[SVGKSourceLocalFile sizeInBytesOfFilePath:]
++[SVGKSourceLocalFile sourceFromFilename:]
++[SVGKSourceLocalFile internalSourceAnywhereInBundle:usingName:]
++[SVGKSourceLocalFile internalSourceAnywhereInBundleUsingName:]
+-[SVGKSourceLocalFile copyWithZone:]
+-[SVGKSourceLocalFile sourceFromRelativePath:]
+-[SVGKSourceLocalFile description]
+-[SVGKSourceLocalFile filePath]
+-[SVGKSourceLocalFile setFilePath:]
+-[SVGKSourceLocalFile wasRelative]
+-[SVGKSourceLocalFile setWasRelative:]
+-[SVGKSourceLocalFile .cxx_destruct]
+_OBJC_IVAR_$_SVGKSourceLocalFile._filePath
+_OBJC_IVAR_$_SVGKSourceLocalFile._wasRelative
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceLocalFile.m
+Source/Sources/SVGKSourceLocalFile.m
+Source/Sources/SVGKSourceLocalFile.h
+-[SVGKSourceNSData keyForAppleDictionaries]
++[SVGKSourceNSData sourceFromData:URLForRelativeLinks:]
+-[SVGKSourceNSData copyWithZone:]
+-[SVGKSourceNSData sourceFromRelativePath:]
+-[SVGKSourceNSData rawData]
+-[SVGKSourceNSData setRawData:]
+-[SVGKSourceNSData effectiveURL]
+-[SVGKSourceNSData setEffectiveURL:]
+-[SVGKSourceNSData .cxx_destruct]
+_OBJC_IVAR_$_SVGKSourceNSData._rawData
+_OBJC_IVAR_$_SVGKSourceNSData._effectiveURL
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceNSData.m
+Source/Sources/SVGKSourceNSData.m
+Source/Sources/SVGKSourceNSData.h
+-[SVGKSourceString keyForAppleDictionaries]
++[SVGKSourceString sourceFromContentsOfString:]
+-[SVGKSourceString copyWithZone:]
+-[SVGKSourceString rawString]
+-[SVGKSourceString setRawString:]
+-[SVGKSourceString .cxx_destruct]
+_OBJC_IVAR_$_SVGKSourceString._rawString
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceString.m
+Source/Sources/SVGKSourceString.m
+Source/Sources/SVGKSourceString.h
+-[SVGKSourceURL keyForAppleDictionaries]
++[SVGKSourceURL sourceFromURL:]
++[SVGKSourceURL internalCreateInputStreamFromURL:]
+-[SVGKSourceURL copyWithZone:]
+-[SVGKSourceURL sourceFromRelativePath:]
+-[SVGKSourceURL description]
+-[SVGKSourceURL URL]
+-[SVGKSourceURL setURL:]
+-[SVGKSourceURL .cxx_destruct]
+_OBJC_IVAR_$_SVGKSourceURL._URL
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Sources/SVGKSourceURL.m
+Source/Sources/SVGKSourceURL.m
+Source/Sources/SVGKSourceURL.h
+-[SVGKParserDefsAndUse supportedNamespaces]
+-[SVGKParserDefsAndUse supportedTags]
+-[SVGKParserDefsAndUse convertSVGElementToElementInstanceTree:outermostUseElement:]
+-[SVGKParserDefsAndUse handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserDefsAndUse handleEndElement:document:parseResult:]
+__OBJC_PROTOCOL_$_SVGKParserExtension
+__OBJC_LABEL_PROTOCOL_$_SVGKParserExtension
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.m
+Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.m
+-[SVGKParserDOM supportedNamespaces]
+-[SVGKParserDOM supportedTags]
+-[SVGKParserDOM handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserDOM handleEndElement:document:parseResult:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserDOM.m
+Source/Parsers/Parser Extensions/SVGKParserDOM.m
+-[SVGKParserGradient supportedTags]
+-[SVGKParserGradient handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserGradient handleEndElement:document:parseResult:]
++[SVGKParserGradient trim]
+-[SVGKParserGradient .cxx_destruct]
+__svgGradientParserSupportedTags
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserGradient.m
+Source/Parsers/Parser Extensions/SVGKParserGradient.m
+-[SVGKParserPatternsAndGradients supportedNamespaces]
+-[SVGKParserPatternsAndGradients supportedTags]
+-[SVGKParserPatternsAndGradients handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserPatternsAndGradients handleEndElement:document:parseResult:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.m
+Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.m
+-[SVGKParserStyles supportedNamespaces]
+-[SVGKParserStyles supportedTags]
+-[SVGKParserStyles handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserStyles handleEndElement:document:parseResult:]
++[SVGKParserStyles trim]
+__svgParserStylesSupportedNamespaces
+__svgParserStylesSupportedTags
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserStyles.m
+Source/Parsers/Parser Extensions/SVGKParserStyles.m
+-[SVGKParserSVG init]
+-[SVGKParserSVG supportedNamespaces]
+-[SVGKParserSVG supportedTags]
+-[SVGKParserSVG handleStartElement:document:namePrefix:namespaceURI:attributes:parseResult:parentNode:]
+-[SVGKParserSVG handleEndElement:document:parseResult:]
+_elementMap
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/Parser Extensions/SVGKParserSVG.m
+Source/Parsers/Parser Extensions/SVGKParserSVG.m
++[SVGKParser cancelParser:]
++[SVGKParser newParserWithDefaultSVGKParserExtensions:]
++[SVGKParser parseSourceUsingDefaultSVGKParser:]
+-[SVGKParser initWithSource:]
+-[SVGKParser addDefaultSVGParserExtensions]
+-[SVGKParser addParserExtension:]
+-[SVGKParser parseSynchronously]
+-[SVGKParser loadCSSFrom:]
+-[SVGKParser stringFromSource:]
+-[SVGKParser handleProcessingInstruction:withData:]
+-[SVGKParser addExternalStylesheetsToRootElement]
+-[SVGKParser handleStartElement:namePrefix:namespaceURI:attributeObjects:]
+-[SVGKParser handleEndElement:]
+-[SVGKParser handleFoundCharacters:length:]
++[SVGKParser NSDictionaryFromCSSAttributes:]
+-[SVGKParser source]
+-[SVGKParser setSource:]
+-[SVGKParser externalStylesheets]
+-[SVGKParser setExternalStylesheets:]
+-[SVGKParser currentParseRun]
+-[SVGKParser setCurrentParseRun:]
+-[SVGKParser defaultXMLNamespaceForThisParseRun]
+-[SVGKParser setDefaultXMLNamespaceForThisParseRun:]
+-[SVGKParser parserExtensions]
+-[SVGKParser setParserExtensions:]
+-[SVGKParser parserKnownNamespaces]
+-[SVGKParser setParserKnownNamespaces:]
+-[SVGKParser hasCancelBeenRequested]
+-[SVGKParser setHasCancelBeenRequested:]
+-[SVGKParser .cxx_destruct]
+_unparsedEntityDeclaration
+_charactersFoundSAX
+_processingInstructionSAX
+_errorEncounteredSAX
+_cDataFoundSAX
+_startElementSAX
+_endElementSAX
+_structuredError
+_NSStringFromLibxmlString
+_SAXHandler
+_OBJC_IVAR_$_SVGKParser._storedChars
+_OBJC_IVAR_$_SVGKParser._stackOfParserExtensions
+_OBJC_IVAR_$_SVGKParser._parentOfCurrentNode
+_OBJC_IVAR_$_SVGKParser._hasCancelBeenRequested
+_OBJC_IVAR_$_SVGKParser.source
+_OBJC_IVAR_$_SVGKParser.externalStylesheets
+_OBJC_IVAR_$_SVGKParser.currentParseRun
+_OBJC_IVAR_$_SVGKParser.defaultXMLNamespaceForThisParseRun
+_OBJC_IVAR_$_SVGKParser.parserExtensions
+_OBJC_IVAR_$_SVGKParser.parserKnownNamespaces
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/SVGKParser.m
+NSStringFromLibxmlString
+Source/Parsers/SVGKParser.m
+structuredError
+endElementSAX
+startElementSAX
+NSDictionaryFromLibxmlAttributes
+NSDictionaryFromLibxmlNamespaces
+cDataFoundSAX
+errorEncounteredSAX
+processingInstructionSAX
+charactersFoundSAX
+unparsedEntityDeclaration
+Source/Parsers/SVGKParser.h
+getCurrentlyParsingParser
+-[SVGKParseResult init]
+-[SVGKParseResult description]
+-[SVGKParseResult addSourceError:]
+-[SVGKParseResult addParseWarning:]
+-[SVGKParseResult addParseErrorRecoverable:]
+-[SVGKParseResult addParseErrorFatal:]
+-[SVGKParseResult addSAXError:]
+-[SVGKParseResult libXMLFailed]
+-[SVGKParseResult setLibXMLFailed:]
+-[SVGKParseResult parsedDocument]
+-[SVGKParseResult setParsedDocument:]
+-[SVGKParseResult rootOfSVGTree]
+-[SVGKParseResult setRootOfSVGTree:]
+-[SVGKParseResult namespacesEncountered]
+-[SVGKParseResult setNamespacesEncountered:]
+-[SVGKParseResult warnings]
+-[SVGKParseResult setWarnings:]
+-[SVGKParseResult errorsRecoverable]
+-[SVGKParseResult setErrorsRecoverable:]
+-[SVGKParseResult errorsFatal]
+-[SVGKParseResult setErrorsFatal:]
+-[SVGKParseResult parseProgressFractionApproximate]
+-[SVGKParseResult setParseProgressFractionApproximate:]
+-[SVGKParseResult .cxx_destruct]
+_OBJC_IVAR_$_SVGKParseResult.libXMLFailed
+_OBJC_IVAR_$_SVGKParseResult.parsedDocument
+_OBJC_IVAR_$_SVGKParseResult.rootOfSVGTree
+_OBJC_IVAR_$_SVGKParseResult.namespacesEncountered
+_OBJC_IVAR_$_SVGKParseResult.warnings
+_OBJC_IVAR_$_SVGKParseResult.errorsRecoverable
+_OBJC_IVAR_$_SVGKParseResult.errorsFatal
+_OBJC_IVAR_$_SVGKParseResult._parseProgressFractionApproximate
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/SVGKParseResult.m
+Source/Parsers/SVGKParseResult.m
+Source/Parsers/SVGKParseResult.h
++[SVGKPointsAndPathsParser startingCurve]
++[SVGKPointsAndPathsParser readWhitespace:]
++[SVGKPointsAndPathsParser readCommaAndWhitespace:]
++[SVGKPointsAndPathsParser readMovetoDrawtoCommandGroups:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readMovetoDrawto:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readMoveto:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readMovetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readCoordinatePair:]
++[SVGKPointsAndPathsParser readCoordinate:intoFloat:]
++[SVGKPointsAndPathsParser readLinetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readLinetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readQuadraticCurvetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readQuadraticCurvetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readQuadraticCurvetoArgument:path:relativeTo:]
++[SVGKPointsAndPathsParser readSmoothQuadraticCurvetoCommand:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readSmoothQuadraticCurvetoArgumentSequence:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readSmoothQuadraticCurvetoArgument:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readCurvetoCommand:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readCurvetoArgumentSequence:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readCurvetoArgument:path:relativeTo:]
++[SVGKPointsAndPathsParser readSmoothCurvetoCommand:path:relativeTo:withPrevCurve:isRelative:]
++[SVGKPointsAndPathsParser readSmoothCurvetoArgumentSequence:path:relativeTo:withPrevCurve:isRelative:]
++[SVGKPointsAndPathsParser readSmoothCurvetoArgument:path:relativeTo:withPrevCurve:]
++[SVGKPointsAndPathsParser readVerticalLinetoArgumentSequence:path:relativeTo:]
++[SVGKPointsAndPathsParser readVerticalLinetoCommand:path:relativeTo:]
++[SVGKPointsAndPathsParser readHorizontalLinetoArgumentSequence:path:relativeTo:]
++[SVGKPointsAndPathsParser readHorizontalLinetoCommand:path:relativeTo:]
++[SVGKPointsAndPathsParser readCloseCommand:path:relativeTo:]
++[SVGKPointsAndPathsParser readEllipticalArcArguments:path:relativeTo:isRelative:]
++[SVGKPointsAndPathsParser readEllipticalArcArgumentsSequence:path:relativeTo:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Parsers/SVGKPointsAndPathsParser.m
+Source/Parsers/SVGKPointsAndPathsParser.m
+SVGCurveMakePoint
+SVGCurveReflectedControlPoint
+-[CALayer(RecursiveClone) cloneRecursively]
+-[CALayer(RecursiveClone) cloneShallow]
+-[CALayer(RecursiveClone) cloneOptionallRecurse:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CALayer+RecursiveClone.m
+Source/QuartzCore additions/CALayer+RecursiveClone.m
+-[SVGGradientLayer renderInContext:]
+-[SVGGradientLayer createCGGradient]
+-[SVGGradientLayer renderLinearGradientInContext:]
+-[SVGGradientLayer renderRadialGradientInContext:]
+-[SVGGradientLayer gradientElement]
+-[SVGGradientLayer setGradientElement:]
+-[SVGGradientLayer objectRect]
+-[SVGGradientLayer setObjectRect:]
+-[SVGGradientLayer viewportRect]
+-[SVGGradientLayer setViewportRect:]
+-[SVGGradientLayer absoluteTransform]
+-[SVGGradientLayer setAbsoluteTransform:]
+-[SVGGradientLayer .cxx_destruct]
+_OBJC_IVAR_$_SVGGradientLayer._gradientElement
+_OBJC_IVAR_$_SVGGradientLayer._objectRect
+_OBJC_IVAR_$_SVGGradientLayer._viewportRect
+_OBJC_IVAR_$_SVGGradientLayer._absoluteTransform
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/SVGGradientLayer.m
+Source/QuartzCore additions/SVGGradientLayer.m
+Source/QuartzCore additions/SVGGradientLayer.h
+-[CALayerWithClipRender renderInContext:]
++[CALayerWithClipRender maskLayer:inContext:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CALayerWithClipRender.m
+Source/QuartzCore additions/CALayerWithClipRender.m
+-[CAShapeLayerWithClipRender renderInContext:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CAShapeLayerWithClipRender.m
+Source/QuartzCore additions/CAShapeLayerWithClipRender.m
+-[CALayerWithChildHitTest containsPoint:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CALayerWithChildHitTest.m
+Source/QuartzCore additions/CALayerWithChildHitTest.m
+-[CAShapeLayerWithHitTest containsPoint:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CAShapeLayerWithHitTest.m
+Source/QuartzCore additions/CAShapeLayerWithHitTest.m
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/CGPathAdditions.m
+CGPathCreateByTranslatingPath
+Source/QuartzCore additions/CGPathAdditions.m
+fixInfinity
+applyPathTranslation
+CGPathCreateByOffsettingPath
+applier
+fixPointsInfinity
++[SVGKLayer layer]
+-[SVGKLayer init]
+-[SVGKLayer setSVGImage:]
+-[SVGKLayer setShowBorder:]
+-[SVGKLayer dealloc]
+-[SVGKLayer SVGImage]
+-[SVGKLayer showBorder]
+-[SVGKLayer startRenderTime]
+-[SVGKLayer setStartRenderTime:]
+-[SVGKLayer endRenderTime]
+-[SVGKLayer setEndRenderTime:]
+-[SVGKLayer .cxx_destruct]
+_OBJC_IVAR_$_SVGKLayer._SVGImage
+_OBJC_IVAR_$_SVGKLayer._showBorder
+_OBJC_IVAR_$_SVGKLayer._startRenderTime
+_OBJC_IVAR_$_SVGKLayer._endRenderTime
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/QuartzCore additions/SVGKLayer.m
+Source/QuartzCore additions/SVGKLayer.m
+Source/QuartzCore additions/SVGKLayer.h
+-[SVGKImageCacheLine numberOfInstances]
+-[SVGKImageCacheLine setNumberOfInstances:]
+-[SVGKImageCacheLine mainInstance]
+-[SVGKImageCacheLine setMainInstance:]
+-[SVGKImageCacheLine .cxx_destruct]
++[SVGKImage initialize]
++[SVGKImage didReceiveMemoryWarningOrBackgroundNotification:]
++[SVGKImage imageNamed:inBundle:]
++[SVGKImage imageNamed:]
++[SVGKImage imageAsynchronouslyNamed:onCompletion:]
++[SVGKImage imageWithSource:onCompletion:]
+___42+[SVGKImage imageWithSource:onCompletion:]_block_invoke
+___copy_helper_block_e8_32s40s56b
+___destroy_helper_block_e8_32s40s56s
++[SVGKImage imageWithContentsOfURL:]
++[SVGKImage imageWithContentsOfFile:]
++[SVGKImage imageParserWithContentsOfFileAsynchronously:onCompletion:]
++[SVGKImage imageWithContentsOfFileAsynchronously:onCompletion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___64+[SVGKImage imageWithContentsOfFileAsynchronously:onCompletion:]_block_invoke
++[SVGKImage imageWithSource:]
++[SVGKImage imageWithData:]
++[SVGKImage imageParserWithDataAsynchronously:onCompletion:]
++[SVGKImage imageWithDataAsynchronously:onCompletion:]
+___54+[SVGKImage imageWithDataAsynchronously:onCompletion:]_block_invoke
+-[SVGKImage observeValueForKeyPath:ofObject:change:context:]
+-[SVGKImage initWithParsedSVG:fromSource:]
+-[SVGKImage initWithSource:]
+-[SVGKImage initWithContentsOfFile:]
+-[SVGKImage initWithContentsOfURL:]
+-[SVGKImage initWithData:]
+-[SVGKImage dealloc]
+-[SVGKImage hasSize]
+-[SVGKImage size]
+-[SVGKImage setSize:]
+-[SVGKImage setScale:]
+-[SVGKImage UIImage]
+-[SVGKImage drawAtPoint:]
+-[SVGKImage drawAtPoint:blendMode:alpha:]
+-[SVGKImage drawInRect:]
+-[SVGKImage drawInRect:blendMode:alpha:]
+-[SVGKImage drawAsPatternInRect:]
++[SVGKImage animatedImageNamed:duration:]
++[SVGKImage animatedResizableImageNamed:capInsets:duration:]
++[SVGKImage animatedImageWithImages:duration:]
+-[SVGKImage layerWithIdentifier:]
+-[SVGKImage layerWithIdentifier:layer:]
+-[SVGKImage newCopyPositionedAbsoluteLayerWithIdentifier:]
+-[SVGKImage newCopyPositionedAbsoluteOfLayer:]
+-[SVGKImage newCopyPositionedAbsoluteOfLayer:withSubLayers:]
+-[SVGKImage newLayerWithElement:]
+-[SVGKImage newCALayerTree]
+-[SVGKImage CALayerTree]
+-[SVGKImage addSVGLayerTree:withIdentifier:toDictionary:]
+-[SVGKImage dictionaryOfLayers]
+-[SVGKImage scaleToFitInside:]
+-[SVGKImage isElementVisible:]
+-[SVGKImage DOMDocument]
+-[SVGKImage setDOMDocument:]
+-[SVGKImage DOMTree]
+-[SVGKImage setDOMTree:]
+-[SVGKImage setCALayerTree:]
+-[SVGKImage scale]
+-[SVGKImage source]
+-[SVGKImage setSource:]
+-[SVGKImage parseErrorsAndWarnings]
+-[SVGKImage setParseErrorsAndWarnings:]
+-[SVGKImage nameUsedToInstantiate]
+-[SVGKImage setNameUsedToInstantiate:]
+-[SVGKImage internalSizeThatWasSetExplicitlyByUser]
+-[SVGKImage setInternalSizeThatWasSetExplicitlyByUser:]
+-[SVGKImage .cxx_destruct]
+_OBJC_IVAR_$_SVGKImageCacheLine.numberOfInstances
+_OBJC_IVAR_$_SVGKImageCacheLine.mainInstance
+_globalSVGKImageCache
+___block_descriptor_64_e8_32s40s56bs_e5_v8?0l
+___block_descriptor_48_e8_32s40r_e39_v24?0"SVGKImage"8"SVGKParseResult"16l
+_OBJC_IVAR_$_SVGKImage.DOMDocument
+_OBJC_IVAR_$_SVGKImage.DOMTree
+_OBJC_IVAR_$_SVGKImage.CALayerTree
+_OBJC_IVAR_$_SVGKImage._scale
+_OBJC_IVAR_$_SVGKImage.source
+_OBJC_IVAR_$_SVGKImage.parseErrorsAndWarnings
+_OBJC_IVAR_$_SVGKImage._nameUsedToInstantiate
+_OBJC_IVAR_$_SVGKImage._internalSizeThatWasSetExplicitlyByUser
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/SVGKImage.m
+Source/SVGKImage.m
+Source/SVGKImage.h
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__54+[SVGKImage imageWithDataAsynchronously:onCompletion:]_block_invoke
+__64+[SVGKImage imageWithContentsOfFileAsynchronously:onCompletion:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__destroy_helper_block_e8_32s40s56s
+__copy_helper_block_e8_32s40s56b
+__42+[SVGKImage imageWithSource:onCompletion:]_block_invoke
++[SVGKit enableLogging]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/SVGKit.m
+Source/SVGKit.m
+-[SVGKSource initWithInputSteam:]
+-[SVGKSource initForCopying]
+-[SVGKSource sourceFromRelativePath:]
+-[SVGKSource copyWithZone:]
+-[SVGKSource keyForAppleDictionaries]
+-[SVGKSource svgLanguageVersion]
+-[SVGKSource setSvgLanguageVersion:]
+-[SVGKSource stream]
+-[SVGKSource setStream:]
+-[SVGKSource approximateLengthInBytesOr0]
+-[SVGKSource setApproximateLengthInBytesOr0:]
+-[SVGKSource setKeyForAppleDictionaries:]
+-[SVGKSource .cxx_destruct]
+_OBJC_IVAR_$_SVGKSource.svgLanguageVersion
+_OBJC_IVAR_$_SVGKSource.stream
+_OBJC_IVAR_$_SVGKSource._approximateLengthInBytesOr0
+_OBJC_IVAR_$_SVGKSource._keyForAppleDictionaries
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/SVGKSource.m
+Source/SVGKSource.m
+Source/SVGKSource.h
++[NSCharacterSet(SVGKExtensions) SVGWhitespaceCharacterSet]
+___59+[NSCharacterSet(SVGKExtensions) SVGWhitespaceCharacterSet]_block_invoke
+_SVGWhitespaceCharacterSet.sWhitespaceCharacterSet
+_SVGWhitespaceCharacterSet.onceToken
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Foundation additions/NSCharacterSet+SVGKExtensions.m
+__59+[NSCharacterSet(SVGKExtensions) SVGWhitespaceCharacterSet]_block_invoke
+Source/Foundation additions/NSCharacterSet+SVGKExtensions.m
+-[SVGKFastImageView init]
+-[SVGKFastImageView initWithCoder:]
+-[SVGKFastImageView initWithFrame:]
+-[SVGKFastImageView initWithSVGKImage:]
+-[SVGKFastImageView populateFromImage:]
+-[SVGKFastImageView setImage:]
+-[SVGKFastImageView addInternalRedrawOnResizeObservers]
+-[SVGKFastImageView removeInternalRedrawOnResizeObservers]
+-[SVGKFastImageView setDisableAutoRedrawAtHighestResolution:]
+-[SVGKFastImageView dealloc]
+-[SVGKFastImageView observeValueForKeyPath:ofObject:change:context:]
+-[SVGKFastImageView drawRect:]
+-[SVGKFastImageView image]
+-[SVGKFastImageView tileRatio]
+-[SVGKFastImageView setTileRatio:]
+-[SVGKFastImageView disableAutoRedrawAtHighestResolution]
+-[SVGKFastImageView timeIntervalForLastReRenderOfSVGFromMemory]
+-[SVGKFastImageView setTimeIntervalForLastReRenderOfSVGFromMemory:]
+-[SVGKFastImageView startRenderTime]
+-[SVGKFastImageView setStartRenderTime:]
+-[SVGKFastImageView endRenderTime]
+-[SVGKFastImageView setEndRenderTime:]
+-[SVGKFastImageView didRegisterObservers]
+-[SVGKFastImageView setDidRegisterObservers:]
+-[SVGKFastImageView didRegisterInternalRedrawObservers]
+-[SVGKFastImageView setDidRegisterInternalRedrawObservers:]
+-[SVGKFastImageView .cxx_destruct]
+_OBJC_IVAR_$_SVGKFastImageView.internalContextPointerBecauseApplesDemandsIt
+_OBJC_IVAR_$_SVGKFastImageView._image
+_OBJC_IVAR_$_SVGKFastImageView._disableAutoRedrawAtHighestResolution
+_OBJC_IVAR_$_SVGKFastImageView._tileRatio
+_OBJC_IVAR_$_SVGKFastImageView._timeIntervalForLastReRenderOfSVGFromMemory
+_OBJC_IVAR_$_SVGKFastImageView._startRenderTime
+_OBJC_IVAR_$_SVGKFastImageView._endRenderTime
+_OBJC_IVAR_$_SVGKFastImageView._didRegisterObservers
+_OBJC_IVAR_$_SVGKFastImageView._didRegisterInternalRedrawObservers
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/UIKit additions/SVGKFastImageView.m
+Source/UIKit additions/SVGKFastImageView.m
+Source/UIKit additions/SVGKFastImageView.h
+-[SVGKImageView image]
+Source/UIKit additions/SVGKImageView.h
+-[SVGKImageView init]
+-[SVGKImageView initWithFrame:]
+-[SVGKImageView initWithCoder:]
+-[SVGKImageView initWithSVGKImage:]
+-[SVGKImageView intrinsicContentSize]
+-[SVGKImageView setImage:]
+-[SVGKImageView showBorder]
+-[SVGKImageView setShowBorder:]
+-[SVGKImageView timeIntervalForLastReRenderOfSVGFromMemory]
+-[SVGKImageView .cxx_destruct]
+_OBJC_IVAR_$_SVGKImageView._image
+_OBJC_IVAR_$_SVGKImageView._showBorder
+_OBJC_IVAR_$_SVGKImageView._timeIntervalForLastReRenderOfSVGFromMemory
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/UIKit additions/SVGKImageView.m
+Source/UIKit additions/SVGKImageView.m
++[SVGKLayeredImageView layerClass]
+-[SVGKLayeredImageView init]
+-[SVGKLayeredImageView initWithCoder:]
+-[SVGKLayeredImageView initWithFrame:]
+-[SVGKLayeredImageView initWithSVGKImage:]
+-[SVGKLayeredImageView populateFromImage:]
+-[SVGKLayeredImageView image]
+-[SVGKLayeredImageView setImage:]
+-[SVGKLayeredImageView showBorder]
+-[SVGKLayeredImageView setShowBorder:]
+-[SVGKLayeredImageView timeIntervalForLastReRenderOfSVGFromMemory]
+-[SVGKLayeredImageView internalBorderLayer]
+-[SVGKLayeredImageView setInternalBorderLayer:]
+-[SVGKLayeredImageView .cxx_destruct]
+_OBJC_IVAR_$_SVGKLayeredImageView._internalBorderLayer
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/UIKit additions/SVGKLayeredImageView.m
+Source/UIKit additions/SVGKLayeredImageView.m
++[NSData(NSInputStream) dataWithContentsOfStream:initialCapacity:error:]
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Foundation additions/NSData+NSInputStream.m
+Source/Foundation additions/NSData+NSInputStream.m
++[SVGKPattern patternWithColor:]
++[SVGKPattern patternWithImage:]
+-[SVGKPattern CGColor]
+-[SVGKPattern color]
+-[SVGKPattern setColor:]
+-[SVGKPattern .cxx_destruct]
+_OBJC_IVAR_$_SVGKPattern.color
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Utils/SVGKPattern.m
+Source/Utils/SVGKPattern.m
+Source/Utils/SVGKPattern.h
+_gColorNames
+_gColorValues
+_createPathFromPointsInString.x
+_createPathFromPointsInString.y
+/Users/administrator/Desktop/Pankaj/Sample/iOS/CryptoApp/Carthage/Checkouts/SVGKit/Source/Utils/SVGUtils.m
+CGColorWithSVGColor
+Source/Utils/SVGUtils.m
+createPathFromPointsInString
+SVGPercentageFromString
+SVGColorFromString
+SVGColorMake
+ColorValueWithName
+/Users/administrator/Library/Caches/org.carthage.CarthageKit/DerivedData/11.2.1_11B500/SVGKit/2.1.0/Build/Intermediates.noindex/ArchiveIntermediates/SVGKitFramework-tvOS/IntermediateBuildFilesPath/SVGKit-iOS.build/Release-appletvos/SVGKitFramework-tvOS.build/DerivedSources/SVGKit_vers.c

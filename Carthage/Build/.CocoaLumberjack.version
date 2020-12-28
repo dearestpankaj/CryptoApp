@@ -1,0 +1,55 @@
+{
+  "Mac" : [
+    {
+      "name" : "CocoaLumberjack",
+      "hash" : "ff07f9cfe1293b082ba42543089167f2b137ec948d9009c6597fb62be1aa4808",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "4044cccd8e35f128050e4b54675f305ec47cec3a213c177ce8135b4138842417",
+      "name" : "CocoaLumberjackSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "CocoaLumberjack",
+      "hash" : "141acc3a58ed82537d2b8d72054e9989f7b7f9d7bd1436ee2382005e2b14b13c",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "2101a1f1b927332059c969ae0edd9aaadd39ff4d154709131a6244990ecff09f",
+      "name" : "CocoaLumberjackSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "CocoaLumberjack",
+      "hash" : "7c1ccb7b6f7437279040f2b7426b6dcf5caa0ef97fb3baf206e09be352c86810",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "c4dbc1a712eb18d85c1644a7ade01dc0d6b8df9a2290aa440a26a6ae7ce29291",
+      "name" : "CocoaLumberjackSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ],
+  "commitish" : "3.7.0",
+  "iOS" : [
+    {
+      "name" : "CocoaLumberjack",
+      "hash" : "ae4616648515fa5c4741a7603d230bc7cdd0ea989b6b0592239558e3427b7be9",
+      "linking" : "dynamic"
+    },
+    {
+      "hash" : "845272fd16d1dd7be03d2ad2574bbc428e1336cc51d828ea6c0046fbc9d10d2e",
+      "name" : "CocoaLumberjackSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

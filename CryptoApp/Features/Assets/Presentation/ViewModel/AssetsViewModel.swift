@@ -51,37 +51,24 @@ class AssetsViewModel: AssetsViewModelProtocol {
     private func getAllCryptoCoins() {
         let cryptoCurrencies = self.assetsService.getCryptoCurrencies()
 
-        if let cryptocoins = cryptoCurrencies[.cryptocurrency] {
-            allCurrencies[.cryptocurrency] = cryptocoins.map {
-                return CryptoCurrency(logo: isDarkMode ? $0.logoDark : $0.logo,
-                                      name: $0.name,
-                                      symbol: $0.symbol,
-                                      averagePrice: $0.averagePrice,
-                                      currencyType: .cryptocurrency,
-                                      precesion: $0.precesion)
-            }
-        }
-        if let commodities = cryptoCurrencies[.commodity] {
-            allCurrencies[.commodity] = commodities.map {
-                return CryptoCurrency(logo: isDarkMode ? $0.logoDark : $0.logo,
-                                      name: $0.name,
-                                      symbol: $0.symbol,
-                                      averagePrice: $0.averagePrice,
-                                      currencyType: .cryptocurrency,
-                                      precesion: $0.precesion)
-            }
-        }
-        if let fiats = cryptoCurrencies[.fiat] {
-            allCurrencies[.fiat] = fiats.filter { ($0.hasWallet ?? false) }.map {
-                return CryptoCurrency(logo: isDarkMode ? $0.logoDark : $0.logo,
-                                      name: $0.name,
-                                      symbol: $0.symbol,
-                                      averagePrice: $0.averagePrice,
-                                      currencyType: .cryptocurrency,
-                                      precesion: $0.precesion)
-            }
-        }
+        getCryptoCurrencies(cryptoAssets: cryptoCurrencies, cryptoType: .cryptocurrency)
+        getCryptoCurrencies(cryptoAssets: cryptoCurrencies, cryptoType: .commodity)
+        getCryptoCurrencies(cryptoAssets: cryptoCurrencies, cryptoType: .fiat)
         currencies = allCurrencies[.cryptocurrency] ?? []
+    }
+    
+    private func getCryptoCurrencies(cryptoAssets: [CurrencyType: [CryptoCurrencyItem]],
+                                     cryptoType: CurrencyType) {
+        if let cryptocoins = cryptoAssets[cryptoType] {
+            allCurrencies[cryptoType] = cryptocoins.map {
+                return CryptoCurrency(logo: isDarkMode ? $0.logoDark : $0.logo,
+                                      name: $0.name,
+                                      symbol: $0.symbol,
+                                      averagePrice: $0.averagePrice,
+                                      currencyType: .cryptocurrency,
+                                      precesion: $0.precesion)
+            }
+        }
     }
 }
 struct CryptoCurrency {

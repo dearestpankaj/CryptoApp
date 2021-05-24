@@ -30,35 +30,14 @@ class WalletsViewModel: WalletsViewModelProtocol {
     /// getWallets from Service layer and convert in dictionary, also sort the array items on the basis of balance and remove deleted wallets
     private func getWallets() {
         let cryptocoins = self.walletsService.getWallets()
-        if let walletList = cryptocoins[.wallet] {
-            let cryptoWalletList = walletList.filter { !($0.isDeleted ?? false) }.map {
-                return CryptoWallet(logo: isDarkMode ? $0.logoDark : $0.logo,
-                                    name: $0.name,
-                                    symbol: $0.symbol,
-                                    balance: $0.balance,
-                                    currencyType: .wallet,
-                                    isDefault: $0.isDefault)
-            }
-            let sortedWalletList = cryptoWalletList.sorted(by: {
-                (Double($0.balance) ?? 0) > (Double($1.balance) ?? 0)
-            })
-            wallets[.wallet] = sortedWalletList
-        }
-        if let commodityWalletList = cryptocoins[.commodityWallet] {
-            let cryptoWalletList = commodityWalletList.filter { !($0.isDeleted ?? false) }.map {
-                return CryptoWallet(logo: isDarkMode ? $0.logoDark : $0.logo,
-                                    name: $0.name,
-                                    symbol: $0.symbol,
-                                    balance: $0.balance,
-                                    currencyType: .commodityWallet,
-                                    isDefault: $0.isDefault)
-            }
-            let sortedWalletList = cryptoWalletList.sorted(by: {
-                (Double($0.balance) ?? 0) > (Double($1.balance) ?? 0)
-            })
-            wallets[.commodityWallet] = sortedWalletList
-        }
-        if let fiatWalletList = cryptocoins[.fiatWallet] {
+        getCryptoWallets(cryptoAssets: cryptocoins, cryptoType: .wallet)
+        getCryptoWallets(cryptoAssets: cryptocoins, cryptoType: .commodityWallet)
+        getCryptoWallets(cryptoAssets: cryptocoins, cryptoType: .fiatWallet)
+    }
+    
+    private func getCryptoWallets(cryptoAssets: [CurrencyType: [CryptoWalletItem]],
+                                     cryptoType: CurrencyType) {
+        if let fiatWalletList = cryptoAssets[cryptoType] {
             let cryptoWalletList = fiatWalletList.filter { !($0.isDeleted ?? false) }.map {
                 return CryptoWallet(logo: isDarkMode ? $0.logoDark : $0.logo,
                                     name: $0.name,
@@ -70,7 +49,7 @@ class WalletsViewModel: WalletsViewModelProtocol {
             let sortedWalletList = cryptoWalletList.sorted(by: {
                 (Double($0.balance) ?? 0) > (Double($1.balance) ?? 0)
             })
-            wallets[.fiatWallet] = sortedWalletList
+            wallets[cryptoType] = sortedWalletList
         }
     }
 }

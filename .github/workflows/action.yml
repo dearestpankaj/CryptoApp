@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
+      - name: Install Carthage
+        run: carthage bootstrap --no-use-binaries --platform iOS --cache-builds
       - name: Build and test
         run: |
           xcodebuild clean test -project CryptoApp.xcodeproj -scheme Texstyle -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO

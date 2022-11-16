@@ -10,7 +10,7 @@ struct CryptoData: Codable {
     let data: DataClass
 }
 
-// MARK: - DataClass
+// MARK: - DataClass testing commit
 struct DataClass: Codable {
     let type: String
     let attributes: DataAttributes
